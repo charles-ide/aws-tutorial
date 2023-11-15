@@ -1,0 +1,2 @@
+NAME="Charlie"
+PORT=8080

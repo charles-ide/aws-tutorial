@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  tutorial_server_image:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tutorial_server_image
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./env_file.txt
+  
